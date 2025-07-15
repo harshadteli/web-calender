@@ -33,13 +33,13 @@ An advanced, responsive AI-powered calendar web app that allows users to interac
 
 ## 🖼️ Screenshots
 
-> <img src="./assets/ICONS/mockup.png" height="100%" width="auto"/>
+> <img src="mockup.png" height="100%" width="auto"/>
 
 ---
 
 ## 🖥️ Live Demo
 
-[![Live](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=vercel)](https://harshadteli.github.io/smart-web-calculator/)
+[![Live](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=vercel)](https://harshadteli.github.io/web-calculator/)
 
 ---
 
