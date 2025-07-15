@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Voice Calendar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <link rel="stylesheet" href="./assets/CSS/style.css">
+  <link rel="shortcut icon" href="./assets/ICONS/form-icon.png" type="image/x-icon">
+</head>
+<body><img id="avatar" src="./assets/ICONS/loading3.gif" alt="avatar">
+<img id="gif" src="" alt="listening"><h1>📅 Smart Web Calendar</h1>
+<div class="controls">
+  <button onclick="prevMonth()">⬅️ Prev</button>
+  <button onclick="nextMonth()">Next ➡️</button>
+  <button onclick="startListening()">🎤 Speak</button>
+  <button onclick="toggleTheme()">🌓 Toggle Theme</button>
+  <button onclick="exportEvents()">📄 Export Events</button>
+</div><div id="calendar" class="calendar"></div><div class="event-popup">
+  <h3>Events:</h3>
+  <ul id="eventList"></ul>
+</div><br><br><br>
+<center><font color="red">&copy; 2025 HarshTech | All Rights Reserved</font></center>
+<script src="./assets/JS/script.js"></script>
+</body>
+</html>
